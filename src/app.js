@@ -2,7 +2,7 @@ const express = require("express");// Express Allows to set up middlewares to re
 // The Path module provides a way of working with directories and file paths.
 const path = require("path");
 // The path.join() method joins the specified path segments into one path.
-const static_path = path.join(__dirname, "../public");// initializing router
+const static_path = path.join(__dirname, "../public");
 const template_path = path.join(__dirname, "../templates/views");
 const partials_path = path.join(__dirname, "../templates/partials");
 
